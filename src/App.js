@@ -13,7 +13,6 @@ import './App.css'
 const API_KEY = 'f32b79895b21468afbdd6d5342cbf3da'
 
 // write your code here
-
 const App = () => {
   const [searchResponse, setSearchResponse] = useState({})
   const [apiStatus, setApiStatus] = useState('INITIAL')

@@ -12,8 +12,6 @@ const NavBar = props => {
           onTriggerSearchingQuery,
           onChangeSearchInput,
           searchInput,
-          // eslint-disable-next-line
-          apiStatus,
         } = value
 
         const onChangeHandler = event => onChangeSearchInput(event.target.value)
